@@ -1,0 +1,14 @@
+{
+  "starters": [
+    { "id": 1, "name": "Tomato Soup", "price": 80 },
+    { "id": 2, "name": "Spring Rolls", "price": 120 }
+  ],
+  "main_course": [
+    { "id": 3, "name": "Paneer Butter Masala", "price": 250 },
+    { "id": 4, "name": "Veg Biryani", "price": 200 }
+  ],
+  "desserts": [
+    { "id": 5, "name": "Ice Cream", "price": 100 },
+    { "id": 6, "name": "Gulab Jamun", "price": 90 }
+  ]
+}
