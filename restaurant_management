@@ -1,0 +1,8 @@
+restaurant_management/
+│
+├── main.py
+├── menu.py
+├── order.py
+├── bill.py
+└── data/
+    └── menu.json
