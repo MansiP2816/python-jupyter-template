@@ -1,9 +1,10 @@
 import json
 
 class Menu:
-    def __init__(self, menu_file="restaurant_management/data/menu.json"):
-        with open(menu_file, "r") as f:
-            self.menu = json.load(f)
+    def __init__(self):
+        self.menu_file = "menu.json"
+        self.menu = self.load_menu()
+
 
     def show_menu(self):
         print("\n---- MENU ----")
